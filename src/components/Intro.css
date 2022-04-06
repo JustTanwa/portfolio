@@ -1,0 +1,49 @@
+.intro-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-intro {
+    flex-basis: 40%;
+}
+
+.self-photo {
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.name {
+    font-size: 24px;
+    flex-basis: 50%;
+}
+
+h2, h1, .titles, .short-desc {
+    margin: 0;
+    padding-left: 3rem;
+}
+
+.short-desc {
+    max-width: 30em;
+    font-size: 0.75em;
+    font-weight: 100;
+}
+
+.name h2, .titles {
+    font-weight: 100;
+    margin-bottom: 0.5em;
+}
+
+.name h1 {
+    color: var(--blue)
+}
+
+
+.self-photo img {
+    max-width: 100%;
+}
+

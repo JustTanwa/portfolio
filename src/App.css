@@ -1,0 +1,13 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.page-layout {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.main-content {
+    flex: 1;
+}
