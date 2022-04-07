@@ -22,7 +22,7 @@
     flex-basis: 50%;
 }
 
-h2, h1, .titles, .short-desc {
+.name h2, .name h1, .titles, .short-desc {
     margin: 0;
     padding-left: 3rem;
 }
@@ -39,11 +39,40 @@ h2, h1, .titles, .short-desc {
 }
 
 .name h1 {
-    color: var(--blue)
+    color: var(--blue);
+    margin-bottom: 0.5em;
 }
 
 
 .self-photo img {
     max-width: 100%;
+}
+
+.titles {
+    height: 30px;
+    overflow: hidden;
+}
+.titles-wrapper {
+    height: 100%;
+    animation: slideup 8s ease-in-out infinite alternate;
+}
+
+@keyframes slideup {
+    33% {
+        transform: translateY(-30px);
+    }
+    66% {
+        transform: translateY(-60px);
+    }
+    100% {
+        transform: translateY(-90px);
+    }
+
+}
+.title {
+    margin: 0;
+    height: 30px;
+    display: flex;
+    align-items: center;
 }
 

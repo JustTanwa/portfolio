@@ -1,6 +1,7 @@
 import Intro from './components/Intro';
 import Sidebar from './components/Sidebar';
 import './App.css';
+import Aboutme from './components/Aboutme';
 
 function App() {
 	return (
@@ -8,6 +9,7 @@ function App() {
 			<Sidebar />
 			<main className='main-content'>
 				<Intro />
+				<Aboutme />
 			</main>
 		</div>
 	);

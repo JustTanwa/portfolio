@@ -15,7 +15,7 @@ export default function Sidebar() {
 		<nav className='sidebar'>
 			<div className='brand-logo'><img src={Logo} alt="logo"></img></div>
 			<div className='nav-link-container'>
-				<a href="/"><FontAwesomeIcon icon={faHome} size='2x' /><p className='link-title'>Home</p></a>
+				<a href="#intro"><FontAwesomeIcon icon={faHome} size='2x' /><p className='link-title'>Home</p></a>
 				<a href="#aboutme"><FontAwesomeIcon icon={faPortrait} size='2x' /><p className='link-title'>About me</p></a>
 				<a href="#projects"><FontAwesomeIcon icon={faLaptopCode} size='2x' /><p className='link-title'>Projects</p></a>
 				<a href="#contact"><FontAwesomeIcon icon={faEnvelope} size='2x' /><p className='link-title'>Contact</p></a>

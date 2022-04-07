@@ -1,11 +1,18 @@
 * {
     font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
 }
 
 .page-layout {
+    position: relative;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+}
+
+.page-layout .sidebar {
+    position: sticky;
+    top: 0;
 }
 
 .main-content {

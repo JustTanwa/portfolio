@@ -1,0 +1,43 @@
+.aboutme-page {
+    height: 100vh;
+    background: rgb(240, 240, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutme-title {
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+}
+
+.aboutme-title h2 {
+    font-size: 36px;
+    font-weight: 200;
+}
+
+.aboutme-infor {
+    flex-basis: 50%;
+}
+
+.aboutme-para1, .aboutme-para2 {
+    font-size: 1.25em;
+    max-width: 27em;
+    margin-bottom: 2em;
+}
+
+.coffee {
+    font-weight: 600;
+    color: #6a4928;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.tea {
+    font-weight: 600;
+    color: #E5A672;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
