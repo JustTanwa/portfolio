@@ -21,8 +21,7 @@ export default function Aboutme() {
 					I am a self-taught, self-motivated Front-End Web Developer with a
 					background in <em>Teaching</em>. My past experiences has shaped me to
 					be a well-communicated, compassionate and approachable person. I don't
-					drink <span className='coffee'>coffee</span>, but I do drink{' '}
-					<span className='tea'> tea </span> (espcially boba ones).
+					drink coffee, but I do drink tea (espcially ones with boba).
 				</p>
 				<p className='aboutme-para2'>
 					When I am not coding or debugging, I like to unwind by watching anime
