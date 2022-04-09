@@ -1,0 +1,30 @@
+.projects-page {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects-title {
+    flex-basis: 40%;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+}
+
+.projects-title h2 {
+    font-size: 36px;
+    font-weight: 200;
+}
+
+.projects-container {
+    flex-basis: 50%;
+    flex-grow: 0;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
