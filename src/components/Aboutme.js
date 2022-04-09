@@ -14,7 +14,6 @@ export default function Aboutme() {
 		<section id='aboutme' className='aboutme-page'>
 			<div className='aboutme-title'>
 				<h2>About me</h2>
-				<h2>Skills</h2>
 			</div>
 			<div className='aboutme-infor'>
 				<p className='aboutme-para1'>
@@ -28,6 +27,11 @@ export default function Aboutme() {
 					and playing video games. I also enjoy doing Taekwondo and taking
 					flying side-kick photos when travelling abroad.
 				</p>
+			</div>
+			<div className='aboutme-title'>
+				<h2>Skills</h2>
+			</div>
+			<div className='aboutme-skill'>
 				<div className='skill-badges'>
 					<FontAwesomeIcon
 						icon={faHtml5}

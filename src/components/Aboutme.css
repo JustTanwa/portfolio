@@ -3,31 +3,45 @@
     background: rgb(240, 240, 240);
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 .aboutme-title {
     flex-basis: 40%;
+    flex-shrink: 0;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    justify-content: space-evenly;
-    height: 100vh;
+    height: 50%;
 }
-
 .aboutme-title h2 {
     font-size: 36px;
     font-weight: 200;
 }
 
-.aboutme-infor {
+.aboutme-infor, .aboutme-skill {
     flex-basis: 50%;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 50%;
+}
+
+.aboutme-infor {
+    justify-content: flex-end;
+}
+
+.aboutme-skill {
+    justify-content: center;
 }
 
 .aboutme-para1, .aboutme-para2 {
     font-size: 1.25em;
     max-width: 27em;
     margin-bottom: 2em;
+    font-weight: 100;
 }
 
 .skill-badges {
