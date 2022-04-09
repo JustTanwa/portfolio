@@ -1,0 +1,44 @@
+.contact-page {
+    height: 100vh;
+    background: rgb(240, 240, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-title {
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 2em;
+}
+
+.contact-title h2 {
+    font-size: 36px;
+    font-weight: 200;
+}
+
+.contact-form-wrapper {
+    flex-basis: 50%;
+    height: 100%;
+}
+
+.address, .email-address {
+    display: grid;
+    gap: 1.5em;
+    grid-template-columns: 20px auto;
+}
+
+.address svg, .email-address svg {
+    color: var(--blue);
+}
+
+address, .email {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0 0 0 0;
+}
