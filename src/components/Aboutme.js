@@ -7,11 +7,17 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
+import { useTheme } from '../ThemeContext';
 import './Aboutme.css';
 
 export default function Aboutme() {
+	const darkTheme = useTheme();
 	return (
-		<section id='aboutme' className='aboutme-page'>
+		<section
+			id='aboutme'
+			className='aboutme-page'
+			style={darkTheme ? { backgroundColor: '#414141', color: '#fff' } : {}}
+		>
 			<div className='aboutme-title'>
 				<h2>About me</h2>
 			</div>
@@ -52,7 +58,7 @@ export default function Aboutme() {
 					<FontAwesomeIcon
 						icon={faBootstrap}
 						size='4x'
-						style={{ color: '#602C50' }}
+						style={darkTheme ? {color: "rgb(172, 91, 147)"} : { color: '#602C50' }}
 					/>
 				</div>
 			</div>

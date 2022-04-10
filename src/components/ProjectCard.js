@@ -27,10 +27,10 @@ export default function ProjectCard({ img, link, github, description }) {
 				</figure>
 			</div>
 			<div className='project-description'>
-				<p>{description}</p>
+				{description}
 				<div className='card-buttons'>
-					<button className='live-demo'>Live Demo</button>
-					<button className='source-code'>View Code</button>
+					<a href={link} className='live-demo'>Live Demo</a>
+					<a href={github} className='source-code'>View Code</a>
 				</div>
 			</div>
 		</div>

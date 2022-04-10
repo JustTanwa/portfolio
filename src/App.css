@@ -1,6 +1,7 @@
 * {
     font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
+    transition: background-color 0.3s ease-in;
 }
 
 .page-layout {
@@ -17,6 +18,13 @@
 
 .main-content {
     flex: 1;
+    position: relative;
+}
+
+.switch-wrapper {
+    position: absolute;
+    right: 10px;
+    top: 10px;
 }
 
 footer {

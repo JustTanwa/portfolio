@@ -4,12 +4,21 @@ import './App.css';
 import Aboutme from './components/Aboutme';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
+import { useTheme } from './ThemeContext';
+import ToggleSwitch from './components/ToggleSwitch';
 
 function App() {
+	const darkTheme = useTheme();
 	return (
-		<div className='page-layout'>
+		<div
+			className='page-layout'
+			style={darkTheme ? { backgroundColor: '#313131', color: '#fff' } : {}}
+		>
 			<Sidebar />
 			<main className='main-content'>
+				<div className='switch-wrapper'>
+					<ToggleSwitch />
+				</div>
 				<Intro />
 				<Aboutme />
 				<Projects />

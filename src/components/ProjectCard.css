@@ -62,33 +62,19 @@
     height: 2em;
     background-color: transparent;
     border: none;
-    border-bottom: 1px solid var(--blue);
     position: relative;
     overflow: hidden;
     transition: color 1s ease;
     cursor: pointer;
+    display: flex;
+    align-items: flex-end;
+    text-decoration: none;
 }
 
-.live-demo::after, .source-code::after{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: var(--blue);
-    transform: translateY(100%);
-    transition: all 1s ease;
-    z-index: -1;
+.live-demo:visited, .live-demo:link, .source-code:visited, .source-code:link {
+    color: inherit; 
 }
 
-.live-demo:hover, .source-code:hover {
-    color: #fff;
-}
-
-.live-demo:hover::after, .source-code:hover::after {
-    transform: translateY(0);
-}
 
 
 

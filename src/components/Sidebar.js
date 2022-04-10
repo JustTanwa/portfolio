@@ -9,12 +9,18 @@ import {
 	faPortrait,
 } from '@fortawesome/free-solid-svg-icons';
 import Logo from '../img/TS.png';
+import LogoDark from '../img/TS-dark.png';
+import { useTheme } from '../ThemeContext';
 
 export default function Sidebar() {
+	const darkTheme = useTheme();
 	return (
-		<nav className='sidebar'>
+		<nav
+			className='sidebar'
+			style={darkTheme ? { backgroundColor: '#222' } : {}}
+		>
 			<div className='brand-logo'>
-				<img src={Logo} alt='logo'></img>
+				<img src={darkTheme ? LogoDark : Logo} alt='logo'></img>
 			</div>
 			<div className='nav-link-container'>
 				<a href='#intro' className='intro-link'>
@@ -30,9 +36,11 @@ export default function Sidebar() {
 					<FontAwesomeIcon icon={faEnvelope} size='2x' />
 				</a>
 			</div>
-			<div className='scroll-arrow'>
-				<FontAwesomeIcon icon={faAngleDoubleDown} size='2x' />
-			</div>
+			<FontAwesomeIcon
+				className='arrow-down'
+				icon={faAngleDoubleDown}
+				size='2x'
+			/>
 		</nav>
 	);
 }

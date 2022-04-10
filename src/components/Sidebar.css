@@ -11,6 +11,7 @@ nav.sidebar {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    transition: background-color 0.2s ease-in;
 }
 
 .nav-link-container {
@@ -75,7 +76,18 @@ nav.sidebar {
     /* transform: translateX(150%); */
     opacity: 1;
 }
-
-.scroll-arrow {
-    
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
+.arrow-down:hover {
+    animation: bounce 1.5s infinite;
+}
+

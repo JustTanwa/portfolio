@@ -1,7 +1,9 @@
 import React from 'react';
+import { useTheme } from '../ThemeContext';
 import './Form.css';
 
 export default function Form() {
+	const darkTheme = useTheme();
 	return (
 		<div className='form-container'>
 			<form name='contact' method='post'>
@@ -45,7 +47,11 @@ export default function Form() {
 					/>
 				</div>
 				<div className='btn-container'>
-					<button type='submit' className='send-btn'>
+					<button
+						type='submit'
+						className='send-btn'
+						style={darkTheme ? { backgroundColor: '#00ADB5' } : {}}
+					>
 						Send
 					</button>
 				</div>
