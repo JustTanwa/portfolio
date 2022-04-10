@@ -6,9 +6,15 @@ The purpose of this project is to create a website which will be a personal port
 
 The website will be live on the internet where anyone can access and view information about me as a developer. They will be able interact with the projects that I will be show casing on the website, and contact me if they wish.
 
+## What did I learn
+
+I learned how to use context API to provide global variable to the components and apply styles based on the value of the dark theme toggle. Along with context API, I created custom hook inside the context file so that it can be used to toggle the state change inside the context.
+
+I used the built-in client side form validation for the contact page, and will use the netlify built-in form handling to handle emails send via contact page.
+
 ## Tech Stack
 
-I have created this app using React v18, and will be focus on using CSS to style the website.
+I have created this app using React v18, and will be using CSS to style the website.
 
 ## Available scripts
 
@@ -38,19 +44,6 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### Credits
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
+Some design of the elements on the website was inspired by [Lama Dev](https://www.youtube.com/c/LamaDev).
