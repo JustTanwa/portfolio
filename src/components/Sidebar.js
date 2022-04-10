@@ -17,24 +17,22 @@ export default function Sidebar() {
 				<img src={Logo} alt='logo'></img>
 			</div>
 			<div className='nav-link-container'>
-				<a href='#intro'>
+				<a href='#intro' className='intro-link'>
 					<FontAwesomeIcon icon={faHome} size='2x' />
-					<p className='link-title'>Home</p>
 				</a>
-				<a href='#aboutme'>
+				<a href='#aboutme' className='aboutme-link'>
 					<FontAwesomeIcon icon={faPortrait} size='2x' />
-					<p className='link-title'>About me</p>
 				</a>
-				<a href='#projects'>
+				<a href='#projects' className='projects-link'>
 					<FontAwesomeIcon icon={faLaptopCode} size='2x' />
-					<p className='link-title'>Projects</p>
 				</a>
-				<a href='#contact'>
+				<a href='#contact' className='contact-link'>
 					<FontAwesomeIcon icon={faEnvelope} size='2x' />
-					<p className='link-title'>Contact</p>
 				</a>
 			</div>
-			<FontAwesomeIcon icon={faAngleDoubleDown} size='2x' />
+			<div className='scroll-arrow'>
+				<FontAwesomeIcon icon={faAngleDoubleDown} size='2x' />
+			</div>
 		</nav>
 	);
 }
