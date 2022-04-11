@@ -15,7 +15,7 @@ export default function Intro() {
 			<div className='name'>
 				<h2>Hello, my name is </h2>
 				<h1 style={darkTheme ? { color: '#00ADB5' } : {}}>Tanwa Sripan</h1>
-				<div className='titles'>
+				<div className='titles-container'>
 					<div className='titles-wrapper'>
 						<p className='title'>Web Developer</p>
 						<p className='title'>Problem Solver</p>

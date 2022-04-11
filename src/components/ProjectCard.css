@@ -16,7 +16,7 @@
 }
 
 .browser-bar {
-    height: 25px;
+    height: 1.6em;
     background-color: var(--grey);
     display: flex;
     justify-content: flex-end;

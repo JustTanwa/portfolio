@@ -18,11 +18,11 @@
 }
 
 .name {
-    font-size: 24px;
+    font-size: 1.5em;
     flex-basis: 50%;
 }
 
-.name h2, .name h1, .titles, .short-desc {
+.name h2, .name h1, .titles-container, .short-desc {
     margin: 0;
     padding-left: 3rem;
 }
@@ -33,7 +33,7 @@
     font-weight: 100;
 }
 
-.name h2, .titles {
+.name h2, .titles-container {
     font-weight: 100;
     margin-bottom: 0.5em;
 }
@@ -48,8 +48,8 @@
     max-width: 100%;
 }
 
-.titles {
-    height: 30px;
+.titles-container {
+    height: 1.5em;
     overflow: hidden;
 }
 .titles-wrapper {
@@ -59,20 +59,38 @@
 
 @keyframes slideup {
     33% {
-        transform: translateY(-30px);
+        transform: translateY(-1.5em);
     }
     66% {
-        transform: translateY(-60px);
+        transform: translateY(-3em);
     }
     100% {
-        transform: translateY(-90px);
+        transform: translateY(-4.5em);
     }
 
 }
 .title {
     margin: 0;
-    height: 30px;
+    height: 1.5em;
     display: flex;
     align-items: center;
 }
 
+@media screen and (min-width: 2300px) {
+    .self-photo {
+        max-width: 320px;
+        max-height: 320px;
+    }
+}
+@media screen and (min-width: 2700px) {
+    .self-photo {
+        max-width: 420px;
+        max-height: 420px;
+    }
+}
+@media screen and (min-width: 3500px) {
+    .self-photo {
+        max-width: 550px;
+        max-height: 550px;
+    }
+}

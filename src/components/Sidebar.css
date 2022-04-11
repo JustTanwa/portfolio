@@ -6,7 +6,6 @@
 nav.sidebar {
     height: 100vh;
     background-color: var(--blue);
-    width: 200px;
     color: white;
     display: flex;
     flex-direction: column;
@@ -90,4 +89,21 @@ nav.sidebar {
 .arrow-down:hover {
     animation: bounce 1.5s infinite;
 }
+@media screen and (min-width: 2500px) {
+
+    .brand-logo img {
+        width: 160px;
+        height: 160px;
+        border-radius: 16px;
+    }
+}
+@media screen and (min-width: 3500px) {
+
+    .brand-logo img {
+        width: 200px;
+        height: 200px;
+        border-radius: 20px;
+    }
+}
+
 
