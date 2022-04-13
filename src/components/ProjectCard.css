@@ -76,6 +76,20 @@
     color: inherit; 
 }
 
+.live-demo::after, .source-code::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 25%;
+    border-bottom: #000 2px solid;
+    transition: 1s ease;
+}
+
+.live-demo:hover::after, .source-code:hover::after {
+    width: 75%;
+}
+
 @media screen and (max-width: 1200px) {
     .project {
         flex-basis: 30%;
