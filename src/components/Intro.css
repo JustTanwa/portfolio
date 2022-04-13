@@ -94,3 +94,24 @@
         max-height: 550px;
     }
 }
+
+
+@media screen and (max-width: 850px) {
+    .intro-page {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .self-photo {
+        max-width: 240px;
+        max-height: 240px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .self-photo {
+        max-width: 200px;
+        max-height: 200px;
+    }
+}

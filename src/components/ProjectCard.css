@@ -75,6 +75,27 @@
     color: inherit; 
 }
 
+@media screen and (max-width: 620px) {
+    .project-card {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 
+    .project {
+        height: 20vh;
+        max-width: 90%;
+    }
+}
 
+@media screen and (max-width: 440px) {
+    .project-card {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 
+    .project {
+        height: 20vh;
+        flex-basis: 75%;
+        max-width: 90%;
+    }
+}

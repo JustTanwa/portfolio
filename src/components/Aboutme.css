@@ -49,3 +49,29 @@
     flex-wrap: wrap;
     gap: 3em;
 }
+
+@media screen and (max-width: 850px) {
+    .aboutme-page {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+    .aboutme-title {
+        flex-basis: content;
+    }
+
+    .aboutme-infor, .aboutme-skill {
+        flex-shrink: 1;
+        justify-content: center;
+    }
+
+    .skill-badges {
+        justify-content: center;
+    }
+
+    .aboutme-para1, .aboutme-para2 {
+        padding: 0 2em;
+    }
+}

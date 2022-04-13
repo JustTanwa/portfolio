@@ -42,3 +42,14 @@ address, .email {
     margin: 0;
     padding: 0 0 0 0;
 }
+
+
+@media screen and (max-width: 850px) {
+    .contact-page {
+        flex-direction: column;
+    }
+
+    .contact-form-wrapper {
+        width: 80%;
+    }
+}

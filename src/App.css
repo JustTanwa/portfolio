@@ -2,6 +2,7 @@
     font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
     transition: background-color 0.3s ease-in;
+    box-sizing: border-box;
 }
 
 .page-layout {
