@@ -1,5 +1,5 @@
 .aboutme-page {
-    height: 100vh;
+    min-height: 100vh;
     background: rgb(240, 240, 240);
     display: flex;
     justify-content: center;
@@ -50,6 +50,12 @@
     gap: 3em;
 }
 
+@media screen and (max-width: 1000px) {
+    .aboutme-para1, .aboutme-para2 {
+        font-size: 1.1em;
+    }
+}
+
 @media screen and (max-width: 850px) {
     .aboutme-page {
         flex-direction: column;
@@ -71,7 +77,7 @@
         justify-content: center;
     }
 
-    .aboutme-para1, .aboutme-para2 {
+    .aboutme-para1, .aboutme-para2, .skill-badges {
         padding: 0 2em;
     }
 }

@@ -24,7 +24,7 @@
 
 .name h2, .name h1, .titles-container, .short-desc {
     margin: 0;
-    padding-left: 3rem;
+    padding: 0 2em 0 3rem;
 }
 
 .short-desc {
@@ -99,6 +99,13 @@
 @media screen and (max-width: 850px) {
     .intro-page {
         flex-direction: column;
+    }
+    .name {
+        margin-top: 2em;
+    }
+
+    .left-intro {
+        flex-basis: content;
     }
 }
 
