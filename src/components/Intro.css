@@ -18,7 +18,7 @@
 }
 
 .name {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     flex-basis: 50%;
 }
 
@@ -29,7 +29,7 @@
 
 .short-desc {
     max-width: 30em;
-    font-size: 0.75em;
+    font-size: 0.75rem;
     font-weight: 100;
 }
 

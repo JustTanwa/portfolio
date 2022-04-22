@@ -56,7 +56,7 @@ nav.sidebar {
 
 .intro-link::after, .aboutme-link::after, .projects-link::after, .contact-link::after {
     padding-left: 2px;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     position: absolute;
     top: 0;
     left: 0;
@@ -106,6 +106,16 @@ nav.sidebar {
     }
 }
 
+@media screen and (max-width: 1286px) {
+    .intro-link:hover, .aboutme-link:hover, .projects-link:hover, .contact-link:hover {
+        transform: none;
+    }
+
+    .intro-link:hover::after, .aboutme-link:hover::after, .projects-link:hover::after, .contact-link:hover::after {
+        opacity: 0;
+    }
+    
+}
 
 @media screen and (max-width: 850px) {
     .brand-logo img {
@@ -124,13 +134,5 @@ nav.sidebar {
 
     nav.sidebar {
         max-width: 50px;
-    }
-
-    .intro-link:hover, .aboutme-link:hover, .projects-link:hover, .contact-link:hover {
-        transform: none;
-    }
-
-    .intro-link:hover::after, .aboutme-link:hover::after, .projects-link:hover::after, .contact-link:hover::after {
-        opacity: 0;
     }
 }

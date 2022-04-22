@@ -29,8 +29,8 @@ export default function ProjectCard({ img, link, github, description }) {
 			<div className='project-description'>
 				{description}
 				<div className='card-buttons'>
-					<a href={link} className='live-demo'>Live Demo</a>
-					<a href={github} className='source-code'>View Code</a>
+					<a href={link} target="_blank" rel="noreferrer" className='live-demo'>Live Demo</a>
+					<a href={github} target="_blank" rel="noreferrer" className='source-code'>View Code</a>
 				</div>
 			</div>
 		</div>

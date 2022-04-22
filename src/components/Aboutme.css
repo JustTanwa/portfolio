@@ -16,7 +16,7 @@
     height: 50%;
 }
 .aboutme-title h2 {
-    font-size: 2.25em;
+    font-size: 2.25rem;
     font-weight: 200;
 }
 
@@ -38,9 +38,9 @@
 }
 
 .aboutme-para1, .aboutme-para2 {
-    font-size: 1.25em;
-    max-width: 27em;
-    margin-bottom: 2em;
+    font-size: 1.25rem;
+    max-width: 27rem;
+    margin-bottom: 2rem;
     font-weight: 100;
 }
 
@@ -52,7 +52,7 @@
 
 @media screen and (max-width: 1000px) {
     .aboutme-para1, .aboutme-para2 {
-        font-size: 1.1em;
+        font-size: 1.1rem;
     }
 }
 
