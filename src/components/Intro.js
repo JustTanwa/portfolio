@@ -2,6 +2,9 @@ import React from 'react';
 import './Intro.css';
 import Me from '../img/me.jpg';
 import { useTheme } from '../ThemeContext';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDev, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faFile } from '@fortawesome/free-solid-svg-icons';
 
 export default function Intro() {
 	const darkTheme = useTheme();
@@ -10,6 +13,21 @@ export default function Intro() {
 			<div className='left-intro'>
 				<div className='self-photo'>
 					<img src={Me} alt='a young man smiling' />
+				</div>
+				<div id='socials'>
+					<a href='' className='resume'>
+						<FontAwesomeIcon icon={faFile} size="2x"/>
+						Resume
+					</a>
+					<a href='https://www.linkedin.com/in/tanwasripan/' className='linkedin'>
+						<FontAwesomeIcon icon={faLinkedin} size="2x"/> LinkedIn
+					</a>
+					<a href='https://dev.to/justtanwa' className='devblog'>
+						<FontAwesomeIcon icon={faDev} size="2x" /> Dev
+					</a>
+					<a href='https://twitter.com/justtanwa' className='twitter'>
+						<FontAwesomeIcon icon={faTwitter} size="2x" /> Twitter
+					</a>
 				</div>
 			</div>
 			<div className='name'>

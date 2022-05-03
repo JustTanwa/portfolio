@@ -17,8 +17,22 @@
     margin: 0 auto;
 }
 
+#socials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2em;
+    gap: 3em;
+}
+
+#socials a {
+    flex-basis: 40%;
+    text-decoration: none;
+    color: inherit;
+}
+
 .name {
-    font-size: 1.5rem;
+    font-size: 2rem;
     flex-basis: 50%;
 }
 
@@ -29,7 +43,7 @@
 
 .short-desc {
     max-width: 30em;
-    font-size: 0.75rem;
+    font-size: 1.25rem;
     font-weight: 100;
 }
 

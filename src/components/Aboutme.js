@@ -1,6 +1,7 @@
 import {
 	faBootstrap,
 	faCss3,
+	faGit,
 	faHtml5,
 	faJs,
 	faReact,
@@ -35,7 +36,7 @@ export default function Aboutme() {
 				</p>
 			</div>
 			<div className='aboutme-title'>
-				<h2>Skills</h2>
+				<h2>Technologies</h2>
 			</div>
 			<div className='aboutme-skill'>
 				<div className='skill-badges'>
@@ -58,7 +59,14 @@ export default function Aboutme() {
 					<FontAwesomeIcon
 						icon={faBootstrap}
 						size='4x'
-						style={darkTheme ? {color: "rgb(172, 91, 147)"} : { color: '#602C50' }}
+						style={
+							darkTheme ? { color: 'rgb(172, 91, 147)' } : { color: '#602C50' }
+						}
+					/>
+					<FontAwesomeIcon
+						icon={faGit}
+						size='4x'
+						style={{ color: '#F1502F' }}
 					/>
 				</div>
 			</div>
