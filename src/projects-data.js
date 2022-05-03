@@ -24,16 +24,20 @@ export const projects = [
 	{
 		id: 2,
 		imgsrc: project2,
-		livelink: 'https//www.google.com',
-		github: 'https://github.com/',
+		livelink: 'https://ticytacytoe.netlify.app/',
+		github: 'https://github.com/JustTanwa/tic-tac-toe',
 		description: (
 			<p>
-				I used to travel a lot before the the current pandemic and I thought
-				when I start travelling again, I would want a way to create a website to
-				track all the trip information. <br />
+				I built this Tic-Tac-Toe game using ReactJS and styled the web app using
+				CSS3. Currently, you can play the game against another person or two
+				levels of difficulty against an AI. <br />
 				<br />
-				So I built this travelling itinerary tracker using ReactJS, Bootstrap
-				and Firebase for authentication
+				In the future, I plan to include some online functionality using
+				WebSocket.
+				<br />
+				<br />
+				You can checkout the game by clicking the Live Demo link, where the game
+				is being hosted on Netlify.
 			</p>
 		),
 	},
