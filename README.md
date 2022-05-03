@@ -12,37 +12,11 @@ I learned how to use context API to provide global variable to the components an
 
 I used the built-in client side form validation for the contact page, and will use the netlify built-in form handling to handle emails send via contact page.
 
-## Tech Stack
+## Technologies used
+
+<p align="left"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="60" height="60"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="60" height="60"/> <img src="https://cdn.worldvectorlogo.com/logos/react-2.svg" alt="React" width="60" height="60"/> <img src="https://cdn.freebiesupply.com/logos/large/2x/netlify-logo-png-transparent.png" alt="Netlify" width="60" height="60" /> </p>
 
 I have created this app using React v18, and will be using CSS to style the website.
-
-## Available scripts
-
-As this website was bootstrapped by ReactJS, these are the usual available scripts.
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### Credits
 
