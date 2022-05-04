@@ -21,7 +21,12 @@ export default function Intro() {
 				</div>
 				<div id='socials'>
 					<div className='socials-link'>
-						<a href={CV} download='Resume-for-Tanwa' className='resume'>
+						<a
+							href={CV}
+							download='Resume-for-Tanwa'
+							className='resume'
+							style={darkTheme ? { color: '#fff', borderColor: '#fff' } : {}}
+						>
 							<FontAwesomeIcon icon={faFilePdf} size='2x' />
 						</a>
 					</div>
@@ -31,6 +36,7 @@ export default function Intro() {
 							className='linkedin'
 							target='_blank'
 							rel='noreferrer'
+							style={darkTheme ? { color: '#fff', borderColor: '#fff' } : {}}
 						>
 							<FontAwesomeIcon icon={faLinkedin} size='2x' />{' '}
 						</a>
@@ -41,6 +47,7 @@ export default function Intro() {
 							className='devblog'
 							target='_blank'
 							rel='noreferrer'
+							style={darkTheme ? { color: '#fff', borderColor: '#fff' } : {}}
 						>
 							<FontAwesomeIcon icon={faDev} size='2x' />
 						</a>
@@ -51,6 +58,7 @@ export default function Intro() {
 							className='twitter'
 							target='_blank'
 							rel='noreferrer'
+							style={darkTheme ? { color: '#fff', borderColor: '#fff' } : {}}
 						>
 							<FontAwesomeIcon icon={faTwitter} size='2x' />
 						</a>
