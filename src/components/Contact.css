@@ -1,5 +1,5 @@
 .contact-page {
-    height: 100vh;
+    min-height: 90vh;
     background: rgb(240, 240, 240);
     display: flex;
     justify-content: center;
@@ -10,46 +10,125 @@
     flex-basis: 40%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
     gap: 2em;
+    justify-content: center;
+    margin-top: -10%;
+    align-items: center;
 }
 
 .contact-title h2 {
     font-size: 2.25rem;
     font-weight: 200;
+    text-align: center;
 }
 
 .contact-form-wrapper {
     flex-basis: 50%;
-    height: 100%;
 }
 
-.address, .email-address {
+.contact-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 0;
+}
+
+.icon-circular {
+    width: 50px;
+    height: 50px;
+    border: 2px solid var(--blue);
+    border-radius: 50%;
     display: grid;
-    gap: 1.5em;
-    grid-template-columns: 20px auto;
+    place-items: center;
+    font-size: 1rem;
 }
 
-.address svg, .email-address svg {
+.address, .email-address, .contact-linkedin {
+    display: flex;
+    gap: 2em;
+}
+
+.address svg, .email-address svg, .contact-linkedin svg {
     color: var(--blue);
 }
 
-address, .email {
+address, .email, .linkedin {
     display: flex;
     align-items: center;
     margin: 0;
     padding: 0 0 0 0;
+    color:black;
+}
+
+.email {
+    text-decoration: underline dotted;
+}
+
+.email:hover, .linkedin:hover {
+    color: var(--blue);
+    cursor: pointer;
 }
 
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1330px) {
     .contact-page {
         flex-direction: column;
+        gap: 2rem;
     }
 
     .contact-form-wrapper {
         width: 80%;
+        margin-bottom: 2em;
+    }
+
+    .contact-title {
+        margin-top: 0%;
+        gap: 0;
+    }
+
+    .contact-list {
+        margin-bottom: 3rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .contact-list li {
+        flex-shrink: 0;
+    }
+
+    .icon-circular {
+        width: 40px;
+        height: 40px;
+        font-size: 0.8rem;
+    }
+    .address, .email-address, .contact-linkedin {
+        gap: 1em;
+    }
+
+    address, .email, .linkedin {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .contact-page {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .contact-list {
+        grid-template-columns: 1fr;
+    }
+    .icon-circular {
+        width: 32px;
+        height: 32px;
+        font-size: 0.6rem;
+    }
+    .address, .email-address, .contact-linkedin {
+        gap: 1em;
+    }
+
+    address, .email, .linkedin {
+        font-size: 0.9rem;
     }
 }

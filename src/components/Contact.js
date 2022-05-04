@@ -1,3 +1,4 @@
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
@@ -15,16 +16,48 @@ export default function Contact() {
 		>
 			<div className='contact-title'>
 				<h2>Contact me</h2>
-				<div className='information-grouping'>
-					<div className='address'>
-						<FontAwesomeIcon icon={faLocationDot} size='2x' style={darkTheme ? { color: '#00ADB5' } : {}}/>
+				<ul className='contact-list'>
+					<li className='address'>
+						<span className='icon-circular'>
+							<FontAwesomeIcon
+								icon={faLocationDot}
+								size='2x'
+								style={darkTheme ? { color: '#00ADB5' } : {}}
+							/>
+						</span>
 						<address>Stockholm, Sweden</address>
-					</div>
-					<div className='email-address'>
-						<FontAwesomeIcon icon={faEnvelope} size='2x' style={darkTheme ? { color: '#00ADB5' } : {}}/>
-						<p className='email'>tanwasripan@hotmail.co.uk</p>
-					</div>
-				</div>
+					</li>
+					<li className='email-address'>
+						<span className='icon-circular'>
+							<FontAwesomeIcon
+								icon={faEnvelope}
+								size='2x'
+								style={darkTheme ? { color: '#00ADB5' } : {}}
+							/>
+						</span>
+						<a className='email' href='mailto:tanwasripan@hotmail.co.uk'>
+							tanwasripan@hotmail.co.uk
+						</a>
+					</li>
+					<li className='contact-linkedin'>
+						<span className='icon-circular'>
+							<FontAwesomeIcon
+								icon={faLinkedin}
+								size='2x'
+								style={darkTheme ? { color: '#00ADB5' } : {}}
+							/>
+						</span>
+						<a
+							href='https://www.linkedin.com/in/tanwasripan/'
+							className='linkedin'
+							target='_blank'
+							rel='noreferrer'
+							style={darkTheme ? { color: '#fff', borderColor: '#fff' } : {}}
+						>
+							linkedin/tanwasripan
+						</a>
+					</li>
+				</ul>
 			</div>
 			<div className='contact-form-wrapper'>
 				<Form />
