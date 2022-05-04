@@ -22,7 +22,7 @@
     flex-wrap: wrap;
     justify-content: center;
     padding: 2em;
-    gap: 3em;
+    gap: 1em;
     color: var(--blue);
 }
 
@@ -34,8 +34,8 @@
 }
 
 #socials a {
-    width: 80px;
-    height: 80px;
+    width: 80%;
+    height: 80%;
     border-radius: 50%;
     border: 2px var(--blue) solid;
     text-decoration: none;
@@ -46,8 +46,8 @@
 }
 
 #socials a:hover {
-    width: 90px;
-    height: 90px;
+    width: 90%;
+    height: 90%;
     font-size: 1.5rem;
     background: rgb(66, 103, 178, 0.2);
 }
@@ -122,11 +122,21 @@
         max-width: 420px;
         max-height: 420px;
     }
+
+    .socials-link {
+        width: 120px;
+        height: 120px;
+    }
 }
 @media screen and (min-width: 3500px) {
     .self-photo {
         max-width: 550px;
         max-height: 550px;
+    }
+
+    .socials-link {
+        width: 200px;
+        height: 200px;
     }
 }
 
@@ -134,13 +144,19 @@
 @media screen and (max-width: 850px) {
     .intro-page {
         flex-direction: column;
+        height: auto;
     }
     .name {
-        margin-top: 2em;
+        margin: 1em 0;
     }
 
     .left-intro {
+        margin-top: 2em;
         flex-basis: content;
+    }
+    .socials-link {
+        width: 80px;
+        height: 80px;
     }
 }
 
