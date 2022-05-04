@@ -3,8 +3,13 @@ import './Intro.css';
 import Me from '../img/me.jpg';
 import { useTheme } from '../ThemeContext';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faDev, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
-import { faFile } from '@fortawesome/free-solid-svg-icons';
+import {
+	faDev,
+	faLinkedin,
+	faTwitter,
+} from '@fortawesome/free-brands-svg-icons';
+import { faFilePdf } from '@fortawesome/free-solid-svg-icons';
+import CV from '../file/TSCV.pdf';
 
 export default function Intro() {
 	const darkTheme = useTheme();
@@ -15,19 +20,41 @@ export default function Intro() {
 					<img src={Me} alt='a young man smiling' />
 				</div>
 				<div id='socials'>
-					<a href='' className='resume'>
-						<FontAwesomeIcon icon={faFile} size="2x"/>
-						Resume
-					</a>
-					<a href='https://www.linkedin.com/in/tanwasripan/' className='linkedin'>
-						<FontAwesomeIcon icon={faLinkedin} size="2x"/> LinkedIn
-					</a>
-					<a href='https://dev.to/justtanwa' className='devblog'>
-						<FontAwesomeIcon icon={faDev} size="2x" /> Dev
-					</a>
-					<a href='https://twitter.com/justtanwa' className='twitter'>
-						<FontAwesomeIcon icon={faTwitter} size="2x" /> Twitter
-					</a>
+					<div className='socials-link'>
+						<a href={CV} download='Resume-for-Tanwa' className='resume'>
+							<FontAwesomeIcon icon={faFilePdf} size='2x' />
+						</a>
+					</div>
+					<div className='socials-link'>
+						<a
+							href='https://www.linkedin.com/in/tanwasripan/'
+							className='linkedin'
+							target='_blank'
+							rel='noreferrer'
+						>
+							<FontAwesomeIcon icon={faLinkedin} size='2x' />{' '}
+						</a>
+					</div>
+					<div className='socials-link'>
+						<a
+							href='https://dev.to/justtanwa'
+							className='devblog'
+							target='_blank'
+							rel='noreferrer'
+						>
+							<FontAwesomeIcon icon={faDev} size='2x' />
+						</a>
+					</div>
+					<div className='socials-link'>
+						<a
+							href='https://twitter.com/justtanwa'
+							className='twitter'
+							target='_blank'
+							rel='noreferrer'
+						>
+							<FontAwesomeIcon icon={faTwitter} size='2x' />
+						</a>
+					</div>
 				</div>
 			</div>
 			<div className='name'>

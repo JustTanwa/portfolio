@@ -23,12 +23,33 @@
     justify-content: center;
     padding: 2em;
     gap: 3em;
+    color: var(--blue);
+}
+
+.socials-link {
+    width: 100px;
+    height: 100px;
+    display: grid;
+    place-items: center;
 }
 
 #socials a {
-    flex-basis: 40%;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px var(--blue) solid;
     text-decoration: none;
     color: inherit;
+    display: grid;
+    place-items: center;
+    transition: all 0.25s ease;
+}
+
+#socials a:hover {
+    width: 90px;
+    height: 90px;
+    font-size: 1.5rem;
+    background: rgb(66, 103, 178, 0.2);
 }
 
 .name {
