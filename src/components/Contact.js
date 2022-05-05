@@ -18,33 +18,48 @@ export default function Contact() {
 				<h2>Contact me</h2>
 				<ul className='contact-list'>
 					<li className='address'>
-						<span className='icon-circular'>
+						<span
+							className='icon-circular'
+							style={darkTheme ? { borderColor: '#00ADB5' } : {}}
+						>
 							<FontAwesomeIcon
 								icon={faLocationDot}
 								size='2x'
-								style={darkTheme ? { color: '#00ADB5' } : {}}
+								style={darkTheme ? { color: '#fff' } : {}}
 							/>
 						</span>
-						<address>Stockholm, Sweden</address>
+						<address style={darkTheme ? { color: '#fff' } : {}}>
+							Stockholm, Sweden
+						</address>
 					</li>
 					<li className='email-address'>
-						<span className='icon-circular'>
+						<span
+							className='icon-circular'
+							style={darkTheme ? { borderColor: '#00ADB5' } : {}}
+						>
 							<FontAwesomeIcon
 								icon={faEnvelope}
 								size='2x'
-								style={darkTheme ? { color: '#00ADB5' } : {}}
+								style={darkTheme ? { color: '#fff' } : {}}
 							/>
 						</span>
-						<a className='email' href='mailto:tanwasripan@hotmail.co.uk'>
+						<a
+							className='email'
+							href='mailto:tanwasripan@hotmail.co.uk'
+							style={darkTheme ? { color: '#fff' } : {}}
+						>
 							tanwasripan@hotmail.co.uk
 						</a>
 					</li>
 					<li className='contact-linkedin'>
-						<span className='icon-circular'>
+						<span
+							className='icon-circular'
+							style={darkTheme ? { borderColor: '#00ADB5' } : {}}
+						>
 							<FontAwesomeIcon
 								icon={faLinkedin}
 								size='2x'
-								style={darkTheme ? { color: '#00ADB5' } : {}}
+								style={darkTheme ? { color: '#fff' } : {}}
 							/>
 						</span>
 						<a
@@ -52,7 +67,7 @@ export default function Contact() {
 							className='linkedin'
 							target='_blank'
 							rel='noreferrer'
-							style={darkTheme ? { color: '#fff', borderColor: '#fff' } : {}}
+							style={darkTheme ? { color: '#fff' } : {}}
 						>
 							linkedin/tanwasripan
 						</a>

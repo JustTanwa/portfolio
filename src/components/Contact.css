@@ -99,7 +99,7 @@ address, .email, .linkedin {
     .icon-circular {
         width: 40px;
         height: 40px;
-        font-size: 0.8rem;
+        font-size: 0.6rem;
     }
     .address, .email-address, .contact-linkedin {
         gap: 1em;
