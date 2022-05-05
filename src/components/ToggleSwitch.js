@@ -5,8 +5,8 @@ import './ToggleSwitch.css';
 export default function ToggleSwitch() {
 	const changeTheme = useChangeTheme();
 	return (
-		<label className='switch'>
-			<input type='checkbox' onChange={changeTheme} />
+		<label htmlFor='theme' className='switch'>
+			<input type='checkbox' id='theme' name='theme' onChange={changeTheme} />
 			<span className='slider'></span>
 		</label>
 	);
