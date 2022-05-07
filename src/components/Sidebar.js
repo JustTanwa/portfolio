@@ -23,16 +23,20 @@ export default function Sidebar() {
 				<img src={darkTheme ? LogoDark : Logo} alt='logo'></img>
 			</div>
 			<div className='nav-link-container'>
-				<a href='#intro' className='intro-link'>
+				<a href='#intro' className='intro-link' aria-label='Home page'>
 					<FontAwesomeIcon icon={faHome} size='2x' />
 				</a>
-				<a href='#aboutme' className='aboutme-link'>
+				<a href='#aboutme' className='aboutme-link' aria-label='About page'>
 					<FontAwesomeIcon icon={faPortrait} size='2x' />
 				</a>
-				<a href='#projects' className='projects-link'>
+				<a
+					href='#projects'
+					className='projects-link'
+					aria-label='Projects page'
+				>
 					<FontAwesomeIcon icon={faLaptopCode} size='2x' />
 				</a>
-				<a href='#contact' className='contact-link'>
+				<a href='#contact' className='contact-link' aria-label='Contact page'>
 					<FontAwesomeIcon icon={faEnvelope} size='2x' />
 				</a>
 			</div>

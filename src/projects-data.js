@@ -1,5 +1,5 @@
 import project2 from './img/project2.png';
-import furious from './img/furiousconsulting.png';
+import furious from './img/furiousconsulting.jpg';
 
 export const projects = [
 	{
