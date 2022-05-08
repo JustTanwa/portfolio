@@ -1,5 +1,6 @@
 import project2 from './img/project2.png';
 import furious from './img/furiousconsulting.jpg';
+import projectmui from './img/projectmui-min.png';
 
 export const projects = [
 	{
@@ -49,9 +50,28 @@ export const projects = [
 	},
 	{
 		id: 3,
-		imgsrc: '',
-		livelink: 'https//www.google.com',
-		github: 'https://github.com/',
-		description: <p>Working in progress.</p>,
+		imgsrc: projectmui,
+		livelink: 'https://caughtthemall.netlify.app/',
+		github: 'https://github.com/JustTanwa/caught-them-all',
+		description: (
+			<>
+				<p>
+					I built this web application using ReactJS and Material UI version 5.
+					The web application was designed purely with MUI components. The main
+					use of the application is to allow for users to find and add Pokemons
+					into their collection. The application makes fetch requests to the
+					PokeAPI to gather the Pokemon data and store it in local storage.
+				</p>
+				<p>
+					I learnt how to use styled components with MUI to develop a well
+					designed web application with theming capibilities.
+				</p>
+
+				<p>
+					Feel free to visit the Live Demo and try adding your favourite
+					Pokemons and see their stats!
+				</p>
+			</>
+		),
 	},
 ];
