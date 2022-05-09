@@ -6,7 +6,13 @@ export default function ToggleSwitch() {
 	const changeTheme = useChangeTheme();
 	return (
 		<label htmlFor='theme' className='switch'>
-			<input type='checkbox' id='theme' name='theme' onChange={changeTheme} />
+			<input
+				type='checkbox'
+				id='theme'
+				name='theme'
+				onChange={changeTheme}
+				arial-label='switch-to-dark-theme'
+			/>
 			<span className='slider'></span>
 		</label>
 	);
