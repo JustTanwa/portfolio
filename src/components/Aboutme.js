@@ -27,8 +27,7 @@ export default function Aboutme() {
 					I am a self-taught, self-motivated Front-End Web Developer with a
 					background in <em>Teaching</em>. My past experiences has shaped me to
 					be a well-communicated, compassionate and approachable person. I build
-					user friendly web applications with accessibility in mind. Fun fact: I
-					don't drink coffee, but I do drink tea (espcially ones with boba).
+					user friendly web applications with accessibility in mind.
 				</p>
 				<p className='aboutme-para'>
 					Fun fact: I

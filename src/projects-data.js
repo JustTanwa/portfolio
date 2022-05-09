@@ -42,7 +42,7 @@ export const projects = [
 					WebSocket.
 				</p>
 				<p>
-					You can checkout the game by clicking the Live Demo link, where the
+					You can check out the game by clicking the Live Demo link, where the
 					game is being hosted on Netlify.
 				</p>
 			</>

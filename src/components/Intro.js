@@ -77,7 +77,7 @@ export default function Intro() {
 					</div>
 				</div>
 				<p className='short-desc'>
-					I am a Front-End Web Developer based in Stockholm, Sweden. I have a
+					I am a Frontend Web Developer based in Stockholm, Sweden. I have a
 					background in Mathematics so naturally I enjoy problem solving.
 				</p>
 			</div>
