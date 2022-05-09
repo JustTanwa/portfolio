@@ -13,8 +13,8 @@ export const projects = [
 				<p>
 					A modern style business consulting website coded from scratch using
 					HTML5, CSS3, JavaScript and jQuery. I am hosting this website on
-					Netlify, and you click on the link to see a live demo or view my code
-					on GitHub.{' '}
+					Netlify, and you can click on the link to see a live demo or view my
+					code on GitHub.{' '}
 				</p>
 				<p>
 					The motivation for the website was to focus on building a landing page
