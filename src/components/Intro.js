@@ -17,7 +17,7 @@ export default function Intro() {
 		<section id='intro' className='intro-page'>
 			<div className='left-intro'>
 				<div className='self-photo'>
-					<img src={Me} alt='a young man smiling' />
+					<img src={Me} width="550" alt='a young man smiling' />
 				</div>
 				<div id='socials'>
 					<div className='socials-link'>

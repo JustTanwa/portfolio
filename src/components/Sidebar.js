@@ -20,7 +20,7 @@ export default function Sidebar() {
 			style={darkTheme ? { backgroundColor: '#222' } : {}}
 		>
 			<div className='brand-logo'>
-				<img src={darkTheme ? LogoDark : Logo} alt='logo'></img>
+				<img src={darkTheme ? LogoDark : Logo} alt='logo' width={'200px'}></img>
 			</div>
 			<div className='nav-link-container'>
 				<a href='#intro' className='intro-link' aria-label='Home page'>
