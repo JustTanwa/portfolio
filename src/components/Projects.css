@@ -23,7 +23,7 @@
 .projects-container {
     flex-basis: 50%;
     flex-grow: 0;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
