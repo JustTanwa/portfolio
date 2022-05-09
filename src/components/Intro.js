@@ -24,6 +24,7 @@ export default function Intro() {
 						<a
 							href={CV}
 							download='Resume-for-Tanwa'
+							aria-label='Resume-for-Tanwa-Sripan'
 							className='resume'
 							style={darkTheme ? { color: '#fff', borderColor: '#fff' } : {}}
 						>
@@ -33,6 +34,7 @@ export default function Intro() {
 					<div className='socials-link'>
 						<a
 							href='https://www.linkedin.com/in/tanwasripan/'
+							aria-label='LinkedIn'
 							className='linkedin'
 							target='_blank'
 							rel='noreferrer'
@@ -44,6 +46,7 @@ export default function Intro() {
 					<div className='socials-link'>
 						<a
 							href='https://dev.to/justtanwa'
+							aria-label='DEV-blog'
 							className='devblog'
 							target='_blank'
 							rel='noreferrer'
@@ -55,6 +58,7 @@ export default function Intro() {
 					<div className='socials-link'>
 						<a
 							href='https://twitter.com/justtanwa'
+							aria-label='twitter'
 							className='twitter'
 							target='_blank'
 							rel='noreferrer'
