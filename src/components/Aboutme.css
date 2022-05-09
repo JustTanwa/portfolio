@@ -37,9 +37,9 @@
     justify-content: center;
 }
 
-.aboutme-para1, .aboutme-para2 {
+.aboutme-para {
     font-size: 1.25rem;
-    max-width: 27rem;
+    max-width: 40rem;
     margin-bottom: 2rem;
     font-weight: 100;
 }
@@ -51,7 +51,7 @@
 }
 
 @media screen and (max-width: 1000px) {
-    .aboutme-para1, .aboutme-para2 {
+    .aboutme-para {
         font-size: 1.1rem;
     }
 }
@@ -75,9 +75,10 @@
 
     .skill-badges {
         justify-content: center;
+        margin: 2em 0;
     }
 
-    .aboutme-para1, .aboutme-para2, .skill-badges {
+    .aboutme-para, .skill-badges {
         padding: 0 2em;
     }
 }

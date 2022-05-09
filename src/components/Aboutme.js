@@ -23,13 +23,18 @@ export default function Aboutme() {
 				<h2>About me</h2>
 			</div>
 			<div className='aboutme-infor'>
-				<p className='aboutme-para1'>
+				<p className='aboutme-para'>
 					I am a self-taught, self-motivated Front-End Web Developer with a
 					background in <em>Teaching</em>. My past experiences has shaped me to
-					be a well-communicated, compassionate and approachable person. I don't
-					drink coffee, but I do drink tea (espcially ones with boba).
+					be a well-communicated, compassionate and approachable person. I build
+					user friendly web applications with accessibility in mind. Fun fact: I
+					don't drink coffee, but I do drink tea (espcially ones with boba).
 				</p>
-				<p className='aboutme-para2'>
+				<p className='aboutme-para'>
+					Fun fact: I
+					don't drink coffee, but I do drink tea (espcially ones with boba).
+				</p>
+				<p className='aboutme-para'>
 					When I am not coding or debugging, I like to unwind by watching anime
 					and playing video games. I also enjoy doing Taekwondo and taking
 					flying side-kick photos when travelling abroad.
