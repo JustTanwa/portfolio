@@ -32,6 +32,9 @@
 @media screen and (max-width: 1200px){
     .projects-page {
         flex-direction: column;
+        
+    }
+    .projects-title {
         flex-basis: auto;
     }
 }
