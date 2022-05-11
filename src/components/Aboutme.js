@@ -25,7 +25,7 @@ export default function Aboutme() {
 			<div className='aboutme-infor'>
 				<p className='aboutme-para'>
 					I am a self-taught, self-motivated Front-End Web Developer with a
-					background in <em>Teaching</em>. My past experiences has shaped me to
+					background in <em>Teaching</em>. My past experiences have shaped me to
 					be a well-communicated, compassionate and approachable person. I build
 					user friendly web applications with accessibility in mind.
 				</p>

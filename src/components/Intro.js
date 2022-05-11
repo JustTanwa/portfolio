@@ -5,6 +5,7 @@ import { useTheme } from '../ThemeContext';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
 	faDev,
+	faGithub,
 	faLinkedin,
 	faTwitter,
 } from '@fortawesome/free-brands-svg-icons';
@@ -57,14 +58,14 @@ export default function Intro() {
 					</div>
 					<div className='socials-link'>
 						<a
-							href='https://twitter.com/justtanwa'
-							aria-label='twitter'
-							className='twitter'
+							href='https://github.com/JustTanwa'
+							aria-label='github'
+							className='github'
 							target='_blank'
 							rel='noreferrer'
 							style={darkTheme ? { color: '#fff', borderColor: '#fff' } : {}}
 						>
-							<FontAwesomeIcon icon={faTwitter} size='2x' />
+							<FontAwesomeIcon icon={faGithub} size='2x' />
 						</a>
 					</div>
 				</div>
