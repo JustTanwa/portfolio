@@ -20,8 +20,8 @@ function App() {
 					<ToggleSwitch />
 				</div>
 				<Intro />
-				<Aboutme />
 				<Projects />
+				<Aboutme />
 				<Contact />
 				<footer>&copy; 2022 Tanwa Sripan</footer>
 			</main>

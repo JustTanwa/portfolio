@@ -17,7 +17,6 @@ export default function Aboutme() {
 		<section
 			id='aboutme'
 			className='aboutme-page'
-			style={darkTheme ? { backgroundColor: '#414141', color: '#fff' } : {}}
 		>
 			<div className='aboutme-title'>
 				<h2>About me</h2>
