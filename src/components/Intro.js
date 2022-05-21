@@ -7,7 +7,6 @@ import {
 	faDev,
 	faGithub,
 	faLinkedin,
-	faTwitter,
 } from '@fortawesome/free-brands-svg-icons';
 import { faFilePdf } from '@fortawesome/free-solid-svg-icons';
 import CV from '../file/TSCV.pdf';
