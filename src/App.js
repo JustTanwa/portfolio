@@ -8,25 +8,25 @@ import { useTheme } from './ThemeContext';
 import ToggleSwitch from './components/ToggleSwitch';
 
 function App() {
-	const darkTheme = useTheme();
-	return (
-		<div
-			className='page-layout'
-			style={darkTheme ? { backgroundColor: '#313131', color: '#fff' } : {}}
-		>
-			<Sidebar />
-			<main className='main-content'>
-				<div className='switch-wrapper'>
-					<ToggleSwitch />
-				</div>
-				<Intro />
-				<Projects />
-				<Aboutme />
-				<Contact />
-				<footer>&copy; 2022 Tanwa Sripan</footer>
-			</main>
-		</div>
-	);
+  const darkTheme = useTheme();
+  return (
+    <div
+      className='page-layout'
+      style={darkTheme ? { backgroundColor: '#313131', color: '#fff' } : {}}
+    >
+      <Sidebar />
+      <main className='main-content'>
+        <div className='switch-wrapper'>
+          <ToggleSwitch />
+        </div>
+        <Intro />
+        <Projects />
+        <Aboutme />
+        <Contact />
+        <footer>&copy; 2023 Tanwa Sripan</footer>
+      </main>
+    </div>
+  );
 }
 
 export default App;
